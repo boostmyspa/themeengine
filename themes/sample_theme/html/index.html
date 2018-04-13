@@ -1,0 +1,19 @@
+{% load custom_tags %}
+
+<h1>Sample Test</h1>
+<p>This is a simple test to establish a proof of concept</p>
+
+{% create_simple_text merchanttheme "section-block-1" as simpleblock%}
+<h2>{{ simpleblock.header }}</h2>
+<p> {{ simpleblock.subheader }}</p>
+<a href="{{ simpleblock.buttonlink }}">Click Button</a>
+
+{% create_simple_text merchanttheme "section-block-2" as simpleblock%}
+<h2>{{ simpleblock.header }}</h2>
+<p> {{ simpleblock.subheader }}</p>
+<a href="{{ simpleblock.buttonlink }}">Click Button</a>
+
+{% create_simple_text merchanttheme "section-block-3" as simpleblock%}
+<h2>{{ simpleblock.header }}</h2>
+<p> {{ simpleblock.subheader }}</p>
+<a href="{{ simpleblock.buttonlink }}">Click Button</a>

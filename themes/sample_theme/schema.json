@@ -1,0 +1,26 @@
+{
+  "blocks": [
+    {
+      "blockname": "section-block-1",
+      "type": "simple-text",
+      "settings": [
+        {
+          "header": "Local Ingredients",
+          "subheader": "We only use the freshest ingredients",
+          "buttonlink": "/book-now"
+        }
+      ]
+    },
+    {
+      "blockname": "section-block-2",
+      "type": "simple-text",
+      "settings": [
+        {
+          "header": "Local Ingredients",
+          "subheader": "We only use the freshest ingredients",
+          "buttonlink": "/book-now"
+        }
+      ]
+    }
+  ]
+}
